@@ -2,7 +2,7 @@ name: First actions
 on: workflow_dispatch
 jobs:
   building:
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: echoing
       run: echo "Hello world"
